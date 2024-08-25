@@ -3,7 +3,7 @@ import { FaStar } from 'react-icons/fa';
 import CarTable from '../components/CarTable';
 import useLocalStorage from "../hooks/useLocalStorage";
 import { Link } from 'react-router-dom';
-import Navbar from '../components/NavBar';
+import Navbar from '../components/Navbar';
 import PieChart from '../components/PieChart';
 import StackedBarChart from '../components/StackedBarChart';
 import carsData from '../assets/taladrod-cars.json';

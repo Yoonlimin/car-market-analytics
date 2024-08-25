@@ -1,7 +1,7 @@
 import React from 'react';
 import useLocalStorage from '../hooks/useLocalStorage';
 import CarTable from '../components/CarTable';
-import Navbar from '../components/NavBar';
+import Navbar from '../components/Navbar';
 import { Link } from 'react-router-dom';
 import styles from './HighlightedCars.module.css';
 

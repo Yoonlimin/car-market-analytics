@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar as solidStar } from '@fortawesome/free-solid-svg-icons';
 import { faStar as regularStar } from '@fortawesome/free-regular-svg-icons';
 import styles from './CarTable.module.css';
-import Navbar from '../components/NavBar';
+import Navbar from './Navbar';
 
 const CarTable = ({ cars, onHighlight, highlightedCars }) => {
   const handleHighlight = (car) => {
