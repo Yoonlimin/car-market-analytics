@@ -1,4 +1,4 @@
-import React from 'react';
+
 import useLocalStorage from '../hooks/useLocalStorage';
 import CarTable from '../components/CarTable';
 import Navbar from '../components/Navbar';
