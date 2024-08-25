@@ -1,0 +1,28 @@
+/* Dashboard.module.css */
+.container {
+ display: flex;
+ flex-direction: column;
+ height: 100vh;
+ overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.content {
+ flex: 1;
+ padding: 1rem;
+ margin-top: 60px;
+ overflow-y: auto; /* Allow vertical scrolling if needed */
+}
+
+.chartContainer {
+ width: 100%;
+ max-width: 100%;
+ overflow-x: hidden; /* Ensure charts do not cause horizontal scrolling */
+ display: flex;
+ justify-content: center; /* Center the chart */
+}
+
+.chart {
+ width: 100%;
+ max-width: 100%;
+ height: auto;
+}

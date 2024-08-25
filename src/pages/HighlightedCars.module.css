@@ -1,0 +1,48 @@
+.container {
+ padding: 1rem;
+ margin-top: 60px;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+}
+
+.titleRow {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 1rem;
+}
+
+.tableContainer {
+ width: 100%;
+ overflow-x: auto; /* Enable horizontal scrolling if needed */
+ margin-bottom: 1rem;
+}
+
+.table {
+ width: 100%;
+ border-collapse: collapse;
+}
+
+.table th, .table td {
+ border: 1px solid #ddd;
+ padding: 8px;
+ text-align: left;
+}
+
+.table th {
+ background-color: #f4f4f4;
+}
+
+.unhighlightAllButton {
+ background-color: #f5f8fb;
+ color: #fff;
+ border: none;
+ padding: 8px 16px;
+ cursor: pointer;
+ border-radius: 4px;
+}
+
+.unhighlightAllButton:hover {
+ background-color: #0056b3;
+}

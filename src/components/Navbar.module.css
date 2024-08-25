@@ -1,0 +1,32 @@
+.navbar {
+ width: 100%;
+ background-color: #333;
+ color: #fff;
+ padding: 1rem;
+ box-sizing: border-box;
+ position: fixed;
+ top: 0;
+ left: 0;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ z-index: 1000;
+}
+
+.title {
+ font-size: 1.5rem;
+}
+
+.links {
+ display: flex;
+ gap: 1rem;
+}
+
+.navLink {
+ color: #fff;
+ text-decoration: none;
+}
+
+.navLink:hover {
+ text-decoration: underline;
+}
